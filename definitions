@@ -1,0 +1,2 @@
+Extract tar file: tar -xf
+Extract zipped tar file: tar -xzf
