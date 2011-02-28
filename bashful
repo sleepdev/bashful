@@ -3,5 +3,7 @@
 import sys
 for line in file("/usr/share/bashful/definitions"):
   if all(w in line for w in sys.argv[1:]):
-    print line,
+    description, command = line.split(':',1)
+    print description+":"
+    print "\t", command
 

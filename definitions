@@ -1,2 +1,5 @@
 Extract tar file: tar -xf
 Extract zipped tar file: tar -xzf
+Update remote refs using local refs: git push <remote repository> <local refspec> 
+Switch branches in git: git checkout <local refspec> 
+Edit branch history in git: git rebase --interactive HEAD~10
