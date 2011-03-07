@@ -4,3 +4,5 @@ Update remote refs using local refs: git push <repository> <branch>
 Switch branches: git checkout <local refspec> 
 Manually edit branch history: git rebase --interactive HEAD~10
 Squash history since branching: git rebase -i <branch>
+Find files by name or pattern: find . -name "<filename/pattern>"
+Find files by file content: find . -name "<filename/pattern>" | xargs grep "<pattern>" 
